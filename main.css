@@ -82,7 +82,6 @@ nav a:hover span {
 /* END NAV */
 
 h1 {
-    /* color: #111; */
     color: rgb(247, 115, 8);
     font-weight: 900;
     padding: 0;
@@ -92,7 +91,6 @@ h1 {
     text-align: center;
     font-weight: 900;
     font-size: 25pt;
-/*  */
 }
 .scrollDown {
     background: url("scrollUp1.png");
@@ -114,11 +112,9 @@ h1 {
     bottom: 100px;
     transition: 1s, background-color 0;
 }
- 
 h2 {
-    /* background: rgba(255, 255, 255, .6); */
-    background-color: rgba(143, 129, 107, 0.95);
-    color: white;
+    background: rgba(255, 255, 255, .9);
+    color: rgb(138, 128, 111);
     padding: 8%;
     margin: 0;
     font-size: 20pt;
@@ -130,7 +126,7 @@ h2 {
     padding: 7% 8%;
 }
 .about-tagline {
-    color: #eee;
+    color: rgb(99, 91, 78);
     letter-spacing: 1pt;
     width: 100%;
     margin: 0;
@@ -145,23 +141,19 @@ h2 {
     padding: 0;
     margin: 0;
 }
-
 .about {
     background-image: url("img2.jpg");
 }
-
 .portfolio {
     background-image: url("img3.jpg");
 }
 .projects {
     background-image: url("img4.jpg");
 }
-
 .portfolio-more:hover {
-    /* background-color: rgba(247, 115, 8, .8); */
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(247, 115, 8, .9);
     cursor: pointer;
-    color: rgb(247, 115, 8);
+    color: white;
 }
 
 /* PORTFOLIO FULLVIEW */
@@ -188,7 +180,6 @@ h2 {
     color: white;
     letter-spacing: 2pt;
 }
-
 .exit {
     position: fixed;
     z-index: 100;
@@ -221,11 +212,9 @@ h2 {
 }
 .project-board1 {
     z-index: 0;
-
 }
 .project-board2 {
     z-index: 11;
-
 }
 .project {
     letter-spacing: 3pt;
@@ -246,7 +235,6 @@ h2 {
     padding: 0;
 }
 .project-img img {
-
     position: relative;
     top: 0;
     left: 0;
@@ -256,12 +244,10 @@ h2 {
 }
 .project-board1 .project-img img {
     z-index: 2;
-
 }
 .project-board2 .project-img img {
     z-index: 13;
 }
-
 .project-img p, .project-img a {
     display: block;
     position: relative;
@@ -271,26 +257,21 @@ h2 {
     width: 100%;
     height: 100%;
 }
-
 .project-board1 h4 {
     background-color: rgb(247, 115, 8);
     padding: 4px;
 }
-
 .project-tag {
     padding: 1px 4px;
     background-color: rgb(247, 115, 8);
 }
-
 .project-board1 p, .project-board1 a {
     z-index: 1;
     color: white;
 }
 .project-board2 .project-img p, .project-board2 .project-img a {
     z-index: 12;
-
 }
-
 .project-img p {
     color: white;
     margin-bottom: 90px;
@@ -301,7 +282,6 @@ h2 {
     letter-spacing: 1pt;
     color: rgba(255, 255, 255, .6);
 }
-
 .project-img a:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -346,27 +326,21 @@ h2 {
     height: 52px;
     width: 52px;
 }
-
 .twitter {
     background-image: url("social-tw.png");
 }
-
 .facebook {
     background-image: url("social-fb.png");
-
 }
-
 .linkedin {
     background-image: url("social-li.png");
 }
-
 footer {
     position: relative;
     bottom: 0;
     text-align: center;
     height: 50px;
     width: 98%;
-
     color: #333;
 }
 footer span {
@@ -376,7 +350,6 @@ footer span {
     letter-spacing: 2pt;
     padding-left: 10px;
 }
-
 .scrollToTop {
     position: fixed;
     bottom: -60px;
@@ -392,5 +365,4 @@ footer span {
     bottom: 10px;
     background-color: transparent;
     transition: 1s, background-color 0;
-
 }
