@@ -20,10 +20,6 @@ $(".scrollToTop").click(function() {
 // Scroll Down
 
 $(window).scroll(function() {
-    var about = $("#about");
-    
-    var offsetToRemoveAt = about.offsetHeight - about.height;
-    console.log("Var ABOUT: " + about + " ;; ABOUT Offset Height: " + about.css.offsetHeight + " ;; ABOUT Height: " + about.css.height);
     if ($(window).scrollTop() < 500)
     {
         $(".scrollDown").addClass("show");
@@ -36,23 +32,8 @@ $(window).scroll(function() {
 $(".scrollDown").click(function() {
     $('html, body').animate({
         scrollTop: $("#about").offsetHeight
-        // focus: $("#about")
       }, 500);
 });
-
-
-// function scroll(button) {
-//     if ($(window).scrollTop() <= 0)
-//     {
-//         $(button).addClass("show");
-//     } else 
-//     {
-//         $(button).removeClass("show");
-//     }
-// };
-
-
-// // // //
 
 
 // Snippet - Chris Coyier
@@ -97,7 +78,7 @@ $('a[href*="#"]')
 
 function portfolioListener (attachTo) {
     $(attachTo).click(function () {
-        $(".portfolio-icon").toggleClass("show")
+        $(".fixed").toggleClass("show")
     })
     $(attachTo).click(function () {
         $(".portfolio-fullview").toggleClass("show")
@@ -105,13 +86,12 @@ function portfolioListener (attachTo) {
     $(attachTo).click(function () {
         $(".exit").toggleClass("show")
     })
-    $(attachTo).click(function () {
-        $(".portTag").toggleClass("show")
-    })
 };
 
 var icon = $(".portfolio-icon");
 var seeMore = $(".portfolio-more");
+var exit = $(".exit");
 
 $(document).ready(portfolioListener(icon));
 $(document).ready(portfolioListener(seeMore));
+$(document).ready(portfolioListener(exit));
