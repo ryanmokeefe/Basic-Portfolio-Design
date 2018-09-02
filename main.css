@@ -184,7 +184,7 @@ h2 {
     position: fixed;
     z-index: 100;
     top: 20px;
-    right: -50px;
+    right: -100px;
     height: 50px;
     width: 50px;
     border: none;
@@ -249,7 +249,7 @@ h2 {
     z-index: 13;
 }
 .project-img p, .project-img a {
-    display: block;
+    /* display: block; remove? */
     position: relative;
     top: -300px;
     padding: 10px 20px;
@@ -289,6 +289,26 @@ h2 {
     left: 100%;
     transition: 1s;
 }
+
+
+/*  */
+
+/* .codeLinks span {
+    display: none;
+} */
+/* remove .front: */
+/* .codelinks .front span {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    line-height: 100%;
+} */
+
+
+
+
+
 
 /* END FULLVIEW */
 
