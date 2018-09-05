@@ -1,41 +1,3 @@
-//   Scroll To Top
-
-$(window).scroll(function() {
-    if ($(window).scrollTop() <= 700)
-    {
-        $(".scrollToTop").removeClass("show");
-    } else 
-    {
-        $(".scrollToTop").addClass("show");
-    }
-});
-
-$(".scrollToTop").click(function() {
-    $('html, body').animate({
-        scrollTop: 0
-      }, 500);
-});
-
-
-// Scroll Down
-
-$(window).scroll(function() {
-    if ($(window).scrollTop() < 500)
-    {
-        $(".scrollDown").addClass("show");
-    } else 
-    {
-        $(".scrollDown").removeClass("show");
-    }
-});
-
-$(".scrollDown").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#about").offsetHeight
-      }, 500);
-});
-
-
 // Snippet - Chris Coyier
 $('a[href*="#"]')
   .not('[href="#"]')
@@ -66,6 +28,45 @@ $('a[href*="#"]')
     }
   });
 
+
+  // Scroll Down
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() < 500)
+    {
+        $(".scrollDown").addClass("show");
+    } else 
+    {
+        $(".scrollDown").removeClass("show");
+    }
+});
+
+$(".scrollDown").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offsetHeight
+      }, 500);
+});
+
+
+//   Scroll To Top
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() <= 700)
+    {
+        $(".scrollToTop").removeClass("show");
+    } else 
+    {
+        $(".scrollToTop").addClass("show");
+    }
+});
+
+$(".scrollToTop").click(function() {
+    $('html, body').animate({
+        scrollTop: 0
+      }, 500);
+});
+
+
 // Portfolio Fullview:
 
 function portfolioListener (attachTo) {
@@ -87,3 +88,4 @@ var exit = $(".exit");
 $(document).ready(portfolioListener(icon));
 $(document).ready(portfolioListener(seeMore));
 $(document).ready(portfolioListener(exit));
+
