@@ -93,7 +93,7 @@ h1 {
     font-size: 25pt;
 }
 .scrollDown {
-    background: url("scrollUp1.png");
+    background: url("img/scrollUp1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: fill;
@@ -142,13 +142,13 @@ h2 {
     margin: 0;
 }
 .about {
-    background-image: url("img2.jpg");
+    background-image: url("img/img2.jpg");
 }
 .portfolio {
-    background-image: url("img3.jpg");
+    background-image: url("img/img3.jpg");
 }
 .projects {
-    background-image: url("img4.jpg");
+    background-image: url("img/img4.jpg");
 }
 .portfolio-more:hover {
     background-color: rgba(247, 115, 8, .9);
@@ -190,7 +190,7 @@ h2 {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    background: url("exit1.png");
+    background: url("img/exit1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
@@ -347,13 +347,13 @@ h2 {
     width: 52px;
 }
 .twitter {
-    background-image: url("social-tw.png");
+    background-image: url("img/social-tw.png");
 }
 .facebook {
-    background-image: url("social-fb.png");
+    background-image: url("img/social-fb.png");
 }
 .linkedin {
-    background-image: url("social-li.png");
+    background-image: url("img/social-li.png");
 }
 footer {
     position: relative;
